@@ -1,16 +1,19 @@
-# Ex-6-IMPLEMENTATION-OF-THE-BACK-END-OF-THE-COMPILER-
-IMPLEMENTATION OF THE BACK END OF THE COMPILER 
-# Date :13-3-2026
-# Aim :to implement back end o f the compiler
+ ## Ex-6-IMPLEMENTATION-OF-THE-BACK-END-OF-THE-COMPILER-
+## IMPLEMENTATION OF THE BACK END OF THE COMPILER
+
+# Date :11-03-2026
+# Aim :
 To write a program to implement the back end of the compiler.
+
 # ALGORITHM
-1. Start the program.
-2. Get the three variables from statements and stored in the text file k.txt.
-3. Compile the program and give the path of the source file.
-4. Execute the program.
-5. Target code for the given statement is produced.
-6. Stop the program.
+Start the program.
+Get the three variables from statements and stored in the text file k.txt.
+Compile the program and give the path of the source file.
+Execute the program.
+Target code for the given statement is produced.
+Stop the program.
 # PROGRAM
+# exp6 code
 ```
 #include <stdio.h>
 #include <stdlib.h>
@@ -71,8 +74,14 @@ int main() {
     return 0;
 }
 ```
-# OUTPUT
-"C:\Users\Alam\OneDrive\Pictures\Screenshots\Screenshot 2026-03-13 123944.png"
+# exp6ip.txt
+```
+t1 = a + b
+t2 = t1 - c
+```
+## OUTPUT
+<img width="835" height="647" alt="image" src="https://github.com/user-attachments/assets/5f2a4b9c-b472-457f-9529-3ed1f91ec58d" />
 
-# Result
+
+## Result
 The back end of the compiler is implemented successfully, and the output is verified.
